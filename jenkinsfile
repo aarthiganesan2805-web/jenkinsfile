@@ -4,7 +4,7 @@ stages {
  
         stage('Clone Code') { 
             steps { 
-                git branch: 'main', url: 'https://github.com/aarthiganesan2805-web/jenkinsfile.git'
+                git branch: 'main', url: 'https://github.com/aarthiganesan2805-web/jenkinsfile'
             } 
         } 
  
